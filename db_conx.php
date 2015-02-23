@@ -1,0 +1,12 @@
+<?php
+
+$db_conx=mysqli_connect("localhost","root","","mtc");
+//evaluate the condition
+if(mysqli_connect_errno())
+{
+    echo mysqli_connect_error();
+    exit()  ;
+   
+}
+?>
+       
